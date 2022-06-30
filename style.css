@@ -1,0 +1,44 @@
+:root {
+    /* --outer-space: #33393f;
+    --bright-turquoise: #2aefcb;
+    --gin: #e0eae4;
+    --heliotrope: #e866ec; */
+    --oatmeal: #F2E9E2; 
+    --dark-green: #3D8168; 
+  }
+
+body{
+    background-color: var(--oatmeal);
+}
+
+.card{
+    background-color: white;
+    border-radius: 5px;
+    width: 35vw;
+    height: 50vh;
+    padding: 10px; 
+}
+
+img{
+   display: block; 
+}
+
+.productImage{
+    display: block;
+}
+
+.productText{
+    display: block;
+}
+
+.oldPrice{
+    text-decoration: line-through;
+}
+
+.button{
+    background-color: var(--dark-green);;
+    border-radius: 5px;
+    color: white;
+    border: none; 
+    padding: 10px; 
+}
