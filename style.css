@@ -28,18 +28,20 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
+    height: 75vh; 
 }
 
 img{
    display: block; 
-   height: 65vh; 
+   height: 75vh; 
 }
 
 .productImage{
     display: block;
     order: 1;
     /* width: 35vw; */
-    height: 65vh; 
+    height: 75vh; 
 }
 
 .productText{
@@ -48,8 +50,18 @@ img{
     padding: 10px;
 }
 
+.prices{
+    display: flex;
+    flex-direction: row;
+}
+
 .oldPrice{
     text-decoration: line-through;
+}
+
+.newPrice{
+   color: var(--dark-green);
+   font-weight: bold; 
 }
 
 .button{
