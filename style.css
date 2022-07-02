@@ -17,21 +17,29 @@ body{
 .card{
     background-color: white;
     border-radius: 5px;
-    width: 35vw;
-    height: 50vh;
-    padding: 10px; 
+    width: 50vw;
+    /*height: 50vh; */
+    /* padding: 10px;  */
+    display: flex;
+    flex-direction: row;
 }
 
 img{
    display: block; 
+   height: 65vh; 
 }
 
 .productImage{
     display: block;
+    order: 1;
+    /* width: 35vw; */
+    height: 65vh; 
 }
 
 .productText{
     display: block;
+    order: 2; 
+    padding: 10px;
 }
 
 .oldPrice{
