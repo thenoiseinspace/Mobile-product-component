@@ -11,6 +11,9 @@ body{
     background-color: var(--oatmeal);
 }
 
+/* /////////////
+///DESKTOP///
+///////////// */
 .card{
     background-color: white;
     border-radius: 5px;
