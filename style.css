@@ -39,6 +39,7 @@ img{
 
 .productImage{
     display: block;
+    flex-direction: column;
     order: 1;
     /* width: 35vw; */
     height: 75vh; 
@@ -48,6 +49,8 @@ img{
     display: block;
     order: 2; 
     padding: 10px;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .prices{
