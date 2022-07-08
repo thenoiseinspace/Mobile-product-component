@@ -48,23 +48,28 @@ img{
 .productText{
     display: block;
     order: 2; 
-    padding: 10px;
+    padding: 25px;
     flex-direction: column;
     justify-content: space-between;
+    align-content: space-between;
+    row-gap: 20px;
 }
 
 .prices{
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .oldPrice{
     text-decoration: line-through;
+    font-size: small;
 }
 
 .newPrice{
    color: var(--dark-green);
    font-weight: bold; 
+   font-size: larger;
 }
 
 .button{
@@ -73,4 +78,5 @@ img{
     color: white;
     border: none; 
     padding: 10px; 
+    width: 95%; 
 }
