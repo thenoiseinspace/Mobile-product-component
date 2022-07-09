@@ -55,6 +55,14 @@ img{
     row-gap: 20px;
 }
 
+.productCategory{
+    font-weight: 100;
+}
+
+.productDescription{
+    font-weight: 100;
+}
+
 .prices{
     display: flex;
     flex-direction: row;
